@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: bisque;
+}
+.container{
+    justify-content: center;
+    display: flex;
+}
+.game{
+    width: 60vh;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    width: 18vh;
+    height: 18vh;
+    margin: 1vh;
+    border: none;
+    border-radius: 2vh;
+    background-color: rgb(205, 203, 203);
+    color:rgb(116, 16, 210);
+    font-size: 8vh;
+    font-weight: bold;
+    box-shadow:black 5px 5px 10px ;
+}
+h1{
+    font-size: 10vh;
+    margin: 30px;
+    color: rgb(185, 68, 25);
+}
+h1.login{
+    font-size: 10vh;
+    font-weight: lighter;
+    margin: 30px;
+    color: rgb(185, 68, 25);
+}
+.head{
+    font-size: 5vh;
+    margin: 10px;
+    margin-bottom:0;
+    color: rgb(13, 45, 81);
+}
+input{
+    width: 30vh;
+    height: 7vh;
+    border: none;
+    margin: 30px;
+    margin-top: 0;
+    border-radius: 2vh;
+    color:rgb(116, 16, 210);
+    font-size: 3vh;
+    text-align: center;
+}
+div.login{
+    width: 60vh;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid rgb(185, 68, 25);
+    border-radius: 2vh;
+}
+.reset{
+    width: 22vh;
+    height: 7vh;
+    border: none;
+    margin: 30px;
+    border-radius: 2vh;
+    background-color: rgb(18, 115, 211);
+    color: white;
+    font-size: 3vh;
+}
+.result{
+    display: none;
+    color: rgb(11, 43, 71);
+}
