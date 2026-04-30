@@ -14,19 +14,22 @@ var win=[
 var turnX=true;//variable to keep track of player's turn, true for player X and false for player O
 
 //get player names from local storage
-document.getElementById("startBtn").addEventListener("click", () => {
-    const p1 = document.getElementById("player1").value;
-    const p2 = document.getElementById("player2").value;
-    if (p1 && p2) {
-        localStorage.setItem("player1", p1);
-        localStorage.setItem("player2", p2);
-        window.location.href = "index.html"; // navigate AFTER saving
+const startBtn = document.getElementById("startBtn");
 
-    }
-    else{
-        alert("Please enter both player names!");
-    }
-});
+if (startBtn) {
+    startBtn.addEventListener("click", () => {
+        const p1 = document.getElementById("player1").value;
+        const p2 = document.getElementById("player2").value;
+
+        if (p1 && p2) {
+            localStorage.setItem("player1", p1);
+            localStorage.setItem("player2", p2);
+            window.location.href = "index.html";
+        } else {
+            alert("Please enter both player names!");
+        }
+    });
+}
 
 //retrieve player names from local storage or use default names if not set
 var ply1 = localStorage.getItem("player1") || "Player 1";
