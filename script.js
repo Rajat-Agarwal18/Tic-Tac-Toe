@@ -14,7 +14,7 @@ var win=[
 var turnX=true;//variable to keep track of player's turn, true for player X and false for player O
 
 //get player names from local storage
-document.getElementById("startbtn").addEventListener("click", () => {
+document.getElementById("startBtn").addEventListener("click", () => {
     const p1 = document.getElementById("player1").value;
     const p2 = document.getElementById("player2").value;
     if (p1 && p2) {
