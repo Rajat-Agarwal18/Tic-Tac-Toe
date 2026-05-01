@@ -75,6 +75,7 @@ let checkWin=()=>{
         }
 };
 
+
 //reset game
 reset.addEventListener("click",()=>{
     boxes.forEach((box)=>{

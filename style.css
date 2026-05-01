@@ -13,9 +13,9 @@ body{
 .game{
     width: 60vh;
     height: 60vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 .box{
     width: 18vh;
