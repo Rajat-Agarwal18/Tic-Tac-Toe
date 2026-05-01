@@ -11,15 +11,15 @@ body{
     display: flex;
 }
 .game{
-    width: 60vh;
-    height: 60vh;
+    width: 55vh;
+    height: 55vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
 .box{
-    width: 18vh;
-    height: 18vh;
+    width: 15vh;
+    height: 15vh;
     margin: 1vh;
     border: none;
     border-radius: 2vh;
@@ -31,7 +31,7 @@ body{
 }
 h1{
     font-size: 10vh;
-    margin: 30px;
+    margin: 20px;
     color: rgb(185, 68, 25);
 }
 h1.login{
@@ -70,7 +70,7 @@ div.login{
     width: 22vh;
     height: 7vh;
     border: none;
-    margin: 30px;
+    margin: 20px;
     border-radius: 2vh;
     background-color: rgb(18, 115, 211);
     color: white;
